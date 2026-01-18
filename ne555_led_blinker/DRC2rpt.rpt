@@ -1,0 +1,19 @@
+** Drc report for ne555_led_blinker.kicad_pcb **
+** Created on 2026-01-18T04:50:04+0530 **
+
+** Found 3 DRC violations **
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(143.7300 mm, 86.5000 mm): PCB text '${REFERENCE}' on F.Fab
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(136.9322 mm, 83.5000 mm): Track [Net-(U1-DIS)] on B.Cu, length 0.4048 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(136.9322 mm, 83.5000 mm): Track [Net-(U1-DIS)] on F.Cu, length 0.4048 mm
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,6 @@
+Front (top side) placement file: 'C:\Users\abhil\OneDrive\Documents\kicad_docs\p1\voltage_reg\led_brightness_controller\esp_tag\ne555_led_blinker\ne555_led_blinker-top.pos'.
+Info: Component count: 12.
+Back (bottom side) placement file: 'C:\Users\abhil\OneDrive\Documents\kicad_docs\p1\voltage_reg\led_brightness_controller\esp_tag\ne555_led_blinker\ne555_led_blinker-bottom.pos'.
+Info: Component count: 0.
+Info: Full component count: 12.
+Info: Done.

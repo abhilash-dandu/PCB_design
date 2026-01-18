@@ -1,0 +1,7 @@
+﻿# KiCad ignore rules
+*.lck
+*.swp
+*.backup
+*-backups/
+_autosave*
+fp-info-cache

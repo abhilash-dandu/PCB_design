@@ -1,0 +1,157 @@
+** Drc report for ne555_led_blinker.kicad_pcb **
+** Created on 2026-01-18T04:17:13+0530 **
+
+** Found 47 DRC violations **
+[shorting_items]: Items shorting two nets (nets Net-(R1-Pad1) and Net-(U1-DIS))
+    Local override; error
+    @(136.5000 mm, 99.5400 mm): PTH pad 3 [Net-(R1-Pad1)] of RV1
+    @(140.7300 mm, 100.2750 mm): Track [Net-(U1-DIS)] on F.Cu, length 6.9159 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1576 mm)
+    Rule: netclass 'Default'; error
+    @(141.5000 mm, 99.5054 mm): Track [Net-(U1-DIS)] on F.Cu, length 1.0887 mm
+    @(141.4950 mm, 98.9946 mm): Track [GND] on F.Cu, length 2.8358 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1784 mm)
+    Rule: netclass 'Default'; error
+    @(130.8150 mm, 100.8100 mm): Track [Net-(U1-CV)] on F.Cu, length 1.6190 mm
+    @(133.8141 mm, 100.2750 mm): Track [Net-(U1-DIS)] on F.Cu, length 2.9991 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0780 mm)
+    Rule: netclass 'Default'; error
+    @(141.7949 mm, 101.0000 mm): PTH pad 1 [Net-(U1-DIS)] of C1
+    @(141.4950 mm, 98.9946 mm): Track [GND] on F.Cu, length 2.8358 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(140.7300 mm, 100.2750 mm): Track [Net-(U1-DIS)] on F.Cu, length 6.9159 mm
+    @(136.5000 mm, 99.5400 mm): PTH pad 3 [Net-(R1-Pad1)] of RV1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(133.8141 mm, 100.2750 mm): Track [Net-(U1-DIS)] on F.Cu, length 2.9991 mm
+    @(130.8150 mm, 100.8100 mm): PTH pad 5 [Net-(U1-CV)] of U1
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(133.9420 mm, 97.5000 mm): Track [unconnected-(RV1-Pad2)] on F.Cu, length 4.1265 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(138.0685 mm, 97.5000 mm): Track [unconnected-(RV1-Pad2)] on F.Cu, length 3.9265 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(143.5000 mm, 77.8483 mm): Track [VCC] on B.Cu, length 1.3786 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(141.5000 mm, 99.5054 mm): Track [Net-(U1-DIS)] on F.Cu, length 1.0887 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(141.4193 mm, 99.4248 mm): Track [Net-(U1-DIS)] on B.Cu, length 0.1141 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(141.4950 mm, 98.9946 mm): Track [GND] on F.Cu, length 2.8358 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(145.0000 mm, 88.5000 mm): Track [GND] on F.Cu, length 3.7420 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(142.4600 mm, 87.2983 mm): Track [GND] on B.Cu, length 1.2017 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(145.0000 mm, 98.5054 mm): Track [GND] on B.Cu, length 2.1652 mm
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.5000 mm, 94.0000 mm): PCB text 'OUT' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.5000 mm, 97.5000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.5000 mm, 79.5000 mm): PCB text 'VCC' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.5000 mm, 82.5000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(115.5000 mm, 105.5000 mm): PCB text 'NE555 ASTABLE MULTIVIBRATOR CIRCUIT' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(115.5000 mm, 107.0000 mm): PCB text 'Developed by ABD ' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(143.0000 mm, 90.8450 mm): Reference field of J1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.0000 mm, 90.8450 mm): Reference field of J1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.5500 mm, 76.8100 mm): Reference field of RV2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.5500 mm, 76.8100 mm): Reference field of RV2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(143.5000 mm, 105.0000 mm): Reference field of C1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.5000 mm, 105.0000 mm): Reference field of C1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(117.0000 mm, 96.5000 mm): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(117.0000 mm, 96.5000 mm): Reference field of C3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.0000 mm, 92.0000 mm): Reference field of C2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(118.0000 mm, 92.0000 mm): Reference field of C2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.0050 mm, 90.8600 mm): Reference field of U1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(127.0050 mm, 90.8600 mm): Reference field of U1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.0050 mm, 103.1400 mm): Value field of U1 (NE555D)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(127.0050 mm, 103.1400 mm): Value field of U1 (NE555D)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(132.8400 mm, 97.0000 mm): Reference field of RV1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(132.8400 mm, 97.0000 mm): Reference field of RV1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(134.5000 mm, 91.0000 mm): Reference field of R3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(134.5000 mm, 91.0000 mm): Reference field of R3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(134.5000 mm, 90.0000 mm): Reference field of R2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(134.5000 mm, 90.0000 mm): Reference field of R2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(131.4600 mm, 76.9100 mm): Reference field of R1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(131.4600 mm, 76.9100 mm): Reference field of R1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(140.5000 mm, 76.9700 mm): Reference field of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(140.5000 mm, 76.9700 mm): Reference field of J2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0625 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(144.0000 mm, 90.0000 mm): Reference field of D1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(144.0000 mm, 90.0000 mm): Reference field of D1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
